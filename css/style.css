@@ -1,24 +1,30 @@
-html {
-    height: 100%;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #dfecf0;
 }
 
-h1 {
+.website-title, .recipe-title {
     /* font-family: 'Bebas Neue', cursive; */
     text-align: center;
+}
+
+.website-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    margin: auto;
 }
 
 .container {
     background-color: white;
     width: 50%;
     margin: 0 auto;
-    height: 100%;
     border: 1px solid lightgray;
-    padding: 50px;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+}
+
+.recipe-title {
+    margin-top: auto;
 }
 
 .headerimg {
