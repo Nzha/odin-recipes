@@ -4,7 +4,6 @@ body {
 }
 
 .website-title, .recipe-title {
-    /* font-family: 'Bebas Neue', cursive; */
     text-align: center;
 }
 
@@ -21,6 +20,35 @@ body {
     border: 1px solid lightgray;
     padding: 20px 50px;
     margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template: auto / auto auto auto;
+    grid-gap: 20px;
+    margin: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-card {
+    text-align: center;
 }
 
 .recipe-title {
